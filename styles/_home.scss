@@ -1,0 +1,59 @@
+.home {
+  background-color: $veryLightGray;
+  &-image-area {
+    position: relative;
+    min-height: 280px;
+    background: center/cover no-repeat url("./../images/bg-intro-mobile.svg");
+    @include breakpoint-up(medium) {
+      min-height: 400px;
+      background-position: center 70%;
+    }
+    @include breakpoint-up(large) {
+      height: 656px;
+      order: 2;
+      flex: 3;
+    }
+    &::before {
+      @include breakpoint-up(large) {
+        content: "";
+        position: absolute;
+        height: 100%;
+        background-size: 122%;
+        background-position: 0 83%;
+        width: 150%;
+        background-image: url("./../images/bg-intro-desktop.svg");
+      }
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      background-size: 93%;
+      width: 100%;
+      background: no-repeat url("./../images/image-mockups.png");
+      height: 100%;
+      background-position: center bottom;
+      @include breakpoint-up(medium) {
+        background-size: 52%;
+      }
+      @include breakpoint-up(large) {
+        width: 120%;
+        height: 122%;
+        background-position: center 150%;
+        left: 22%;
+        background-size: 94%;
+      }
+    }
+  }
+  &-container {
+    @include breakpoint-up(large) {
+      display: flex;
+      align-items: center;
+    }
+  }
+  &-text-area {
+    text-align: center;
+    @include breakpoint-up(large) {
+      flex: 2;
+    }
+  }
+}

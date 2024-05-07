@@ -1,0 +1,55 @@
+.features {
+  text-align: center;
+  width: 100%;
+  background-color: $lightGrayishBlue;
+
+  @include breakpoint-up(large) {
+    text-align: left;
+  }
+  &-intro {
+    margin-bottom: 55px;
+    p {
+      color: $grayishBlue;
+    }
+    @include breakpoint-up(large) {
+      width: 60%;
+    }
+  }
+  &-grid {
+    @include breakpoint-up(medium) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  &-icon {
+    margin-bottom: 28px;
+    @include breakpoint-up(large) {
+      margin-bottom: 40px;
+    }
+  }
+  &-item {
+    padding: 15px;
+    @include breakpoint-up(medium) {
+      flex: 0 0 50%;
+    }
+    @include breakpoint-up(large) {
+      flex: 1;
+    }
+  }
+  &-title {
+    color: $darkBlue;
+    line-height: 1.15;
+    font-weight: 400;
+    margin-bottom: 16px;
+    font-size: 20px;
+    @include breakpoint-up(large) {
+      font-size: 24px;
+      margin-bottom: 24px;
+    }
+  }
+  &-description {
+    line-height: 1.8;
+    font-size: 14px;
+    color: $grayishBlue;
+  }
+}
