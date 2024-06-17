@@ -1,5 +1,7 @@
 # Easy Bank Website
 
+## Description
+
 This is a simple website for Easy Bank developed using SCSS.
 
 ## Technologies Used
@@ -16,17 +18,6 @@ This is a simple website for Easy Bank developed using SCSS.
 
 [Website](https://6639909b2e909579b89f9499--sage-cascaron-4ce20e.netlify.app/)
 
-## Description
-
-Describe your website here. Include its purpose, features, and any other relevant information.
-
-## How to Use
-
-Provide instructions on how to use your website, including any interactive features.
-
-## Installation
-
-If there are any specific installation steps required for your website, mention them here.
 
 ## Contributing
 
