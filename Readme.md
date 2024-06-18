@@ -14,7 +14,7 @@ This is a simple website for Easy Bank developed using SCSS.
 
 1. Clone the repository:
    ```bash
-   https://github.com/KamilErdogmus/Easy-Bank.git
+   git clone https://github.com/KamilErdogmus/Easy-Bank.git
    ```
 2. Open the index.html file in your browser
 
